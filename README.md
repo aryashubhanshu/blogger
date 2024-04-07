@@ -10,4 +10,5 @@ Tech Stack Used:
 6. Postgres as the database
 7. jwt for authentication
 
+Frontend: https://story-blogs.vercel.app/
 Backend: https://backend.aryashubhanshu20.workers.dev
