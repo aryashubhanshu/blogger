@@ -2,7 +2,7 @@ import { Blog } from "../hooks";
 import Appbar from "./Appbar";
 import Avatar from "./Avatar";
 
-const BlogPost = ({ blog }: Blog) => {
+const BlogPost = ({ blog }: { blog: Blog }) => {
   return (
     <div>
       <Appbar authorName="Anonymous" />

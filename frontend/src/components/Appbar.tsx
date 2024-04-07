@@ -26,7 +26,7 @@ const Appbar = ({ authorName }: { authorName: string }) => {
           </button>
         </Link>
         <div className="flex gap-2 items-center justify-between">
-          <Avatar authorName="Anonymous" size={8} />
+          <Avatar authorName={authorName} size={8} />
           <span
             onClick={() => setShowDropdown(!showDropdown)}
             className="text-xl relative"

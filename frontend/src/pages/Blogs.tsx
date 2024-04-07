@@ -33,7 +33,7 @@ const Blogs = () => {
 
   return (
     <div>
-      <Appbar />
+      <Appbar authorName="Anonymous" />
       <div className="flex justify-center mt-8">
         <div className="flex flex-col justify-center max-w-xl">
           {blogs.map((blog) => {
